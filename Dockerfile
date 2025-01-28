@@ -1,5 +1,5 @@
-##FROM node:12
-FROM node:22
+FROM node:12
+###FROM node:22
 
 ARG POSTGRES_USERNAME_ARG
 ARG POSTGRES_PASSWORD_ARG
@@ -29,7 +29,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+#RUN npm install
 
 RUN npm ci 
 ## Bundle app source
