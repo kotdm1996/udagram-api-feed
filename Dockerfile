@@ -1,5 +1,6 @@
 FROM node:12
 ###FROM node:22
+#generate build
 
 ARG POSTGRES_USERNAME_ARG
 ARG POSTGRES_PASSWORD_ARG
