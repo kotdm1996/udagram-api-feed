@@ -23,7 +23,7 @@ ENV JWT_SECRET=$JWT_SECRET_ARG
 ENV URL=$URL_ARG
 
 
-## Create app directory
+## Create app directory  . triger build 1
 WORKDIR /usr/src/app
 ## Install app dependencies
 ## A wildcard is used to ensure both package.json AND package-lock.json are copied where available (npm@5+)
